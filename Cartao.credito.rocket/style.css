@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  color: #e5e7eb;
+  width: 736px;
+  height: 420px;
+  background-color: #374151;
+  padding: 32px 32px 32px 32px;
+  border-radius: 8px;
+  font-family: "Source Sans 3", sans-serif;
+
+  font-size: 14px;
+}
+
+.info {
+  margin-bottom: 24px;
+  width: 328px;
+  /* font-size: 14px; */
+}
+
+.info input {
+  width: 328px;
+  height: 48px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #1f2937;
+  border: 0;
+}
+
+.info-botao {
+  display: flex;
+}
+
+.info-botao-primeiro input {
+  width: 182px;
+  height: 48px;
+  padding: 0 0 0 8px;
+  background-color: #1f2937;
+  border: 0;
+}
+
+.info-botao-secundario {
+  margin-left: 16px;
+  /* background-color: red; */
+}
+
+.info-botao-secundario input {
+  width: 130px;
+  height: 48px;
+  padding: 0 0 0 8px;
+  background-color: #1f2937;
+  border: 0;
+}
+
+.add-button {
+  width: 100%;
+  margin-top: 48px;
+  height: 56px;
+  padding: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #9333ea;
+  outline: none;
+  border: 0;
+  border-radius: 4px;
+}
+.add-button p {
+  color: #f9fafb;
+}
+
+.info-image {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-image-button {
+  display: flex;
+}
+.info-image-button p {
+  margin-left: 8px;
+}

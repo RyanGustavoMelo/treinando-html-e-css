@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cartão de credito</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <div class="content">
+          <div>
+            <section class="info">
+              <p>Número do cartão</p>
+              <input type="text" placeholder="Digite o numero do seu cartão" />
+            </section>
+            <section class="info">
+              <p>Nome do titular</p>
+              <input
+                type="text"
+                placeholder="Nome como está escrito no cartão"
+              />
+            </section>
+            <section class="info-botao">
+              <div class="info-botao-primeiro">
+                <p>Validade</p>
+                <input type="text" placeholder="MM/AA" />
+              </div>
+              <div class="info-botao-secundario">
+                <p>CVV</p>
+                <input type="text" placeholder="***" />
+              </div>
+            </section>
+          </div>
+
+          <section class="info-image">
+            <img src="./assets/Credit card.png" />
+            <div class="info-image-button">
+              <img src="./assets/verificadoimg.png" />
+              <p>Seus dados estão seguros</p>
+            </div>
+          </section>
+        </div>
+
+        <footer>
+          <button type="button" class="add-button">
+            <p>Adicionar cartao</p>
+          </button>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
